@@ -1,0 +1,85 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: $ColorterceariosP04;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    &__element1 {
+        display: flex;
+        flex-direction: column;
+        background-color: $ColorterceariosP04;
+        min-height: 20.6rem;
+        margin-top: 7.2rem;
+        margin-bottom: 7.2rem;
+
+        .element1__contenido1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 21.6rem;
+            width: 102.4rem;
+
+            .contenido1__texto1 {
+                display: flex;
+                flex-direction: column;
+
+                .texto1__titulo1 {
+                    .titulo1__h2 {
+                        font-size: 3.2rem;
+                        text-align: center;
+                        color: $ColorsecundarioP04;
+                        line-height: 3.84rem;
+                    }
+                }
+
+                .texto1__parrafo1 {
+                    margin-top: 1.2rem;
+
+                    .parrafo1__p1 {
+                        color: $ColorsecundarioP04;
+                        font-size: 2.2rem;
+                        text-align: center;
+                        line-height: 2.5rem;
+                        font-weight: 100;
+                    }
+                }
+            }
+
+            .contenido1__boton1 {
+                @include boton-grande;
+
+                :hover {
+                    background-color: $ColorCuartarioP04;
+                    border-radius: 2rem;
+                }
+
+                .boton1__contenido {
+                    flex-grow: 1;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+
+                    .contenido__texto {
+                        color: $ColorterceariosP04;
+                        font-size: 2.4rem;
+                        text-align: left;
+                        font-weight: 500;
+                    }
+
+                    .contenido__icono {
+                        .icono__imagen {
+                            width: 2.4rem;
+                            height: 2.4rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

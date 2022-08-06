@@ -1,0 +1,46 @@
+$Fuente1P3: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ;
+$Color-primarioP3: #387BAB;
+$Color-blancoP3:white;
+$Color-sombraP3:rgba(38, 105, 88, 0.3);
+$Color-tresP3:#576366;
+$Color-cuatroP3:#ed7f35;
+$Color-cincoP3:#576366;
+
+
+@mixin navegacion{
+    color: $Color-primarioP3;
+    font-size: 1.4rem;
+    font-weight: 1000;
+    line-height: 7rem;
+}
+
+@mixin boton-verde {
+    font-size: 1.4rem;
+    background: linear-gradient(to bottom, #008298 0%, #007589 100%);
+    color: $Color-blancoP3;
+    text-align: center;
+    width: 9rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px 2px $Color-sombraP3;
+    font-weight: 700;
+}
+@mixin boton-verde-tipo2 {
+    font-size: 1.8rem;
+    background: $Color-cincoP3;
+    color: $Color-blancoP3;
+    text-align: center;
+    width: 17.2rem;
+    height: 4.7rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    padding-top: 1.5rem;
+    
+}
+
+@mixin label-tipo1 {
+    width: 25rem;
+    height: 4.7rem;
+    border: solid 2px lightgray;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,20 @@
+header.header
+    a(href="http://www.google.com").header__contenedor-1
+        span.contenedor-1__logo
+            img(src="./01assets/logo-1.svg", alt="").logo__svg1
+        span.contenedor-1__titulo
+            img(src="./01assets/titulo-2.svg", alt="").logo__svg2
+    .header__contenedor-2
+        ul.Contenedor-2__nav-bar
+            each menuheader in menusheaders
+                li.nav-bar__item
+                    button.item__buton-header
+                        span.buton-header__span=menuheader
+    .header__contenedor-3
+        a(href="").contenedor-3__inicio-sesion
+            span.inicio-sesion__span Inicio Sesion
+    .header__contenedor-4
+        a(href="").contenedor-4__boton-comenzar
+            span.boton-comenzar__texto Comenzar
+            span.texto__span 
+                img.span__flecha(src="./01assets/flecha-derecha3.svg", alt="")

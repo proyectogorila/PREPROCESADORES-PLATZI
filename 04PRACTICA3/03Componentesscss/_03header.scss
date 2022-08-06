@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.header{
+    height:7rem;
+    display: flex;
+    min-width: 102.4rem;
+    max-width: 144.0rem;
+    justify-content: center;
+    align-items: center;
+
+    
+    &__imagen{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        min-width: 16rem;
+        img{
+            width: 15.0rem;
+            height: 3.2rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+        
+    }
+
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        min-width: 70rem;
+        
+        .nav__item{
+            @include navegacion;
+        }
+    }
+
+    &__singin{
+        min-width: 8rem;
+        padding-left: 1rem;
+        @include navegacion;
+    }
+
+    &__trials{        
+        min-width: 8rem;
+        .trials_boton{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include boton-verde;
+        }
+    }
+
+    
+}

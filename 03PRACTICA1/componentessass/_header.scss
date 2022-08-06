@@ -1,0 +1,55 @@
+.header {
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
+    background-color: rgba($color: #000000, $alpha: 0.05);
+
+    &__container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: auto;
+        padding-top: 5px;
+        margin: 0 45px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        .container__uno {
+            margin-right: auto;
+        }
+
+        .container__dos {
+            margin-right: 15px;
+            display: flex;
+            margin: 0 10px;
+            border: solid gray 1px;
+            width: 130px;
+            height: 30px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            .dos__icono1 {
+                height: 20px;
+                margin-left: 5px;
+            }
+            .dos__texto {
+                margin-left: 5px;
+            }
+            .dos__icono2 {
+                margin-left: 5px;
+            }
+
+        }
+        .container__tres {
+            background-color: $Color-primario;
+            text-align: center;
+            padding-top: 4px;
+            color: $color-secundario;
+            font-weight: 700;
+            width: 150px;
+            height: 30px;
+            border-radius: 10px;
+        }
+
+    }
+}
+
