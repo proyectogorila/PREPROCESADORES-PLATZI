@@ -11,7 +11,8 @@
         flex-direction: row;
         align-items: center;
         height: 4.8rem;
-        .contenedor-1__logo{
+
+        .contenedor-1__logo {
             background-color: $ColorprimarioP04;
             height: 100%;
             width: 4.8rem;
@@ -24,43 +25,48 @@
                 height: 100%;
                 width: 100%;
 
-                
+
             }
         }
-        .contenedor-1__titulo{
+
+        .contenedor-1__titulo {
             padding-left: 2rem;
             padding-right: 3rem;
             display: flex;
             justify-content: center;
             align-items: center;
-            max-width:12.5rem ;
+            max-width: 12.5rem;
         }
     }
 
     /* Contenedor del menu de header */
-    &__contenedor-2{
+    &__contenedor-2 {
         flex-grow: 1;
+
         .Contenedor-2__nav-bar {
             display: flex;
             flex-direction: row;
             font-size: 1.8rem;
             font-family: Arial, Helvetica, sans-serif;
-           
-            .nav-bar__item:nth-child(5){
+
+            .nav-bar__item:nth-child(5) {
                 margin-left: auto;
             }
+
             :hover {
                 background-color: $ColorprimarioP04;
                 color: white;
                 border-radius: 0.2rem;
             }
-            .nav-bar__item{
+
+            .nav-bar__item {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height:4.8rem;
-                .item__buton-header{
-                    .buton-header__span{
+                height: 4.8rem;
+
+                .item__buton-header {
+                    .buton-header__span {
                         padding-left: 0.75rem;
                         padding-right: 0.75rem;
                         font-weight: 400;
@@ -77,37 +83,46 @@
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 600;
         justify-content: space-around;
-        .contenedor-3__inicio-sesion{
+
+        .contenedor-3__inicio-sesion {
             display: flex;
             flex-grow: 1;
             height: 4.5rem;
             align-items: center;
             padding-left: 1.5rem;
-            
+
         }
     }
 
 
     &__contenedor-3:hover {
         background-color: $ColorCuartarioP04;
-        color:black;
+        color: black;
 
     }
 
 
 
-    &__contenedor-4{
+    &__contenedor-4 {
         min-width: 15.2rem;
 
-        
+
         .contenedor-4__boton-comenzar {
             display: flex;
             flex-direction: row;
             @include boton-p4;
-            .boton-comenzar__texto{
+
+            .boton-comenzar__texto {
                 padding-right: 2rem;
+
             }
-            
+
+            :hover {
+                font-size: 1.65rem;
+                font-weight: 700;
+            }
+
+
         }
 
     }

@@ -161,6 +161,10 @@ html {
 .header__contenedor-4 .contenedor-4__boton-comenzar .boton-comenzar__texto {
   padding-right: 2rem;
 }
+.header__contenedor-4 .contenedor-4__boton-comenzar :hover {
+  font-size: 1.65rem;
+  font-weight: 700;
+}
 
 .main {
   display: -webkit-box;
@@ -239,14 +243,12 @@ html {
   height: 7.2rem;
   background-color: #0061fe;
   cursor: pointer;
-  border-radius: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 .main__element1 .element1__contenido1 .contenido1__boton1 :hover {
   background-color: lightgreen;
-  border-radius: 2rem;
 }
 .main__element1 .element1__contenido1 .contenido1__boton1 .boton1__contenido {
   -webkit-box-flex: 1;
@@ -265,14 +267,15 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .main__element1 .element1__contenido1 .contenido1__boton1 .boton1__contenido .contenido__texto {
   color: #1e1919;
   font-size: 2.4rem;
   text-align: left;
   font-weight: 500;
+  height: 2.4rem;
 }
 .main__element1 .element1__contenido1 .contenido1__boton1 .boton1__contenido .contenido__icono .icono__imagen {
   width: 2.4rem;
